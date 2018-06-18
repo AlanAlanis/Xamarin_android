@@ -1,4 +1,19 @@
 <resources>
     <string name="app_name">task_app</string>
     <string name="action_settings">Settings</string>
+  <string name="TaskToDo">Task To Do</string>
+  <string name="summary">Summary</string>
+  <string name="TaskDoing">Task Doing</string>
+  <string name="New">New</string>
+  <string name="ShowAll">SHOW ALL</string>
+  <string name="done">Done</string>
+  <string name="save">Save</string>
+  <string name="cancel">Cancel</string>
+  <string name="longdescription">Long description</string>
+  <string name="shortdescription">Short description</string>
+  <string name="intpercentage">intPercentage</string>
+  <string name="percentage">Percentage</string>
+  <string name="TaskList">TaskList</string>
+  <string name="TaskDetail">TaskDetail</string>
+  <string name="TaskDone">Task Done</string>
 </resources>
