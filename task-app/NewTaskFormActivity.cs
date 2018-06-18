@@ -106,6 +106,31 @@ namespace task_app
 
         public void SaveNewTask(object sender, EventArgs e)
         {
+            Task task = new Task();
+
+            TextView shortDescription = FindViewById<TextView>(Resource.Id.EditTextShortDescription);
+            task.shortDescription = shortDescription.Text;
+
+            TextView longDescription = FindViewById<TextView>(Resource.Id.EditTextLongDescription);
+            task.longDescription = longDescription.Text;
+
+
+            task.percentage = this.intTaskProgress;
+
+            var db = new SQLiteConnection(dbpath);
+
+            db.CreateTable<Task>();
+
+            db.Insert(task);
+
+            var tableTask = db.Table<Task>();
+            foreach (var row in tableTask)
+            {
+                Task PersistenceTask = new Task(row.shortDescription, row.longDescription, row.percentage);
+                Log.Debug("AIAA*********", "FROM THE DB TASK: " + PersistenceTask.ToString());
+            }
+
+
             Finish();
         }
     }

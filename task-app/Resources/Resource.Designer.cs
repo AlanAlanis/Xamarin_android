@@ -2828,14 +2828,14 @@ namespace task_app
 			// aapt resource value: 0x7f08006e
 			public const int list_item = 2131230830;
 			
-			// aapt resource value: 0x7f0800ce
-			public const int masked = 2131230926;
+			// aapt resource value: 0x7f0800cf
+			public const int masked = 2131230927;
 			
 			// aapt resource value: 0x7f0800bf
 			public const int media_actions = 2131230911;
 			
-			// aapt resource value: 0x7f0800cc
-			public const int message = 2131230924;
+			// aapt resource value: 0x7f0800cd
+			public const int message = 2131230925;
 			
 			// aapt resource value: 0x7f080031
 			public const int middle = 2131230769;
@@ -3035,6 +3035,9 @@ namespace task_app
 			// aapt resource value: 0x7f080019
 			public const int tag_transition_group = 2131230745;
 			
+			// aapt resource value: 0x7f0800cc
+			public const int taskItem = 2131230924;
+			
 			// aapt resource value: 0x7f08001a
 			public const int text = 2131230746;
 			
@@ -3104,8 +3107,8 @@ namespace task_app
 			// aapt resource value: 0x7f080016
 			public const int view_offset_helper = 2131230742;
 			
-			// aapt resource value: 0x7f0800cd
-			public const int visible = 2131230925;
+			// aapt resource value: 0x7f0800ce
+			public const int visible = 2131230926;
 			
 			// aapt resource value: 0x7f08003c
 			public const int withText = 2131230780;
@@ -3356,10 +3359,13 @@ namespace task_app
 			public const int select_dialog_singlechoice_material = 2130968636;
 			
 			// aapt resource value: 0x7f04003d
-			public const int support_simple_spinner_dropdown_item = 2130968637;
+			public const int single_task_item = 2130968637;
 			
 			// aapt resource value: 0x7f04003e
-			public const int tooltip = 2130968638;
+			public const int support_simple_spinner_dropdown_item = 2130968638;
+			
+			// aapt resource value: 0x7f04003f
+			public const int tooltip = 2130968639;
 			
 			static Layout()
 			{

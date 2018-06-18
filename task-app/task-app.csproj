@@ -55,11 +55,13 @@
     <Reference Include="Mono.Android" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ListTaskAdapter.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="NewTaskFormActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Task.cs" />
+    <Compile Include="TaskHolder.cs" />
     <Compile Include="TaskListActivity.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -109,6 +111,11 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\activity_task_list.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\single_task_item.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
